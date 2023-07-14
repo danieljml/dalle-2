@@ -40,11 +40,11 @@ export default function Home() {
   };
 
   return (
-    <main className="flex justify-center w-300">
-      <form onSubmit={handleForm} className="flex flex-col bg-white rounded-lg shadow-lg p-6 gap-y-3">
+    <main className="flex justify-center w-300 border-4 border-gray-600 rounded-md">
+      <form onSubmit={handleForm} className="flex flex-col bg-white rounded-md shadow-lg p-6 gap-y-3">
         <div className="flex">
           <input type="text" placeholder="Write your prompt" className="border border-gray-300 px-3 py-2 rounded-tl-md rounded-bl-md w-full" name="prompt" />
-          <button className="flex items-center justify-center px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 focus:outline-none rounded-tr-md rounded-br-md">
+          <button className="flex items-center justify-center px-4 py-2 bg-gray-600 text-white hover:bg-gray-700 focus:outline-none rounded-tr-md rounded-br-md">
             Generate
           </button>
         </div>
